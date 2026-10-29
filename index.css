@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+body {
+    background-color: #ffffff;
+    color: #1a1a1a;
+    padding: 40px 20px;
+}
+
+header {
+    max-width: 500px;
+    margin: 0 auto 30px auto;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: 800;
+    color: #111111;
+}
+
+header a {
+    color: #5850ec;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 0.95rem;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.linha-header {
+    border: none;
+    border-top: 2px solid #5850ec;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#listaMusicas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.musica {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.musica h2 {
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #111827;
+}
+
+.musica .artista {
+    font-weight: 600;
+    color: #374151;
+    margin-bottom: 6px;
+    font-size: 0.95rem;
+}
+
+.musica .detalhes {
+    font-size: 0.85rem;
+    color: #6b7280;
+    margin-bottom: 18px;
+}
+
+.musica .acoes {
+    display: flex;
+    gap: 12px;
+}
+
+.musica .editar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #5850ec;
+    border: 1px solid #5850ec;
+    text-decoration: none;
+    padding: 6px 16px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.musica .editar:hover {
+    background-color: #f5f3ff;
+}
+
+.musica .apagar {
+    background-color: #ffffff;
+    color: #ef4444;
+    border: 1px solid #ef4444;
+    padding: 6px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.musica .apagar:hover {
+    background-color: #fef2f2;
+}
